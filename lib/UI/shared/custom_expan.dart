@@ -1,6 +1,7 @@
 import 'package:almanaraa/UI/shared/colors.dart';
 import 'package:almanaraa/UI/shared/custom_form_field.dart';
 import 'package:almanaraa/UI/shared/custom_stepper.dart';
+import 'package:almanaraa/UI/shared/map_service.dart';
 import 'package:almanaraa/UI/utils/general_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -74,6 +75,8 @@ class _CustomExpandableTileState extends State<CustomExpandableTile> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       CustomStepper(),
+                      SizedBox(height: 20),
+                      SizedBox(height: screenHieght(6), child: MapScreen()),
                       SizedBox(height: 20),
                       CustomField(hintText: "تعديل الموعد "),
                     ],

@@ -71,8 +71,7 @@ class _HomeViewPersonalState extends State<HomeViewPersonal> {
               height: screenHieght(1),
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: screenWidth(60)),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                child: ListView(
                   children: [
                     SizedBox(
                       height: screenHieght(50),
@@ -142,7 +141,6 @@ class _HomeViewPersonalState extends State<HomeViewPersonal> {
               ),
             ),
           ),
-          SizedBox(height: 20),
         ],
       ),
     )));

@@ -9,7 +9,7 @@ Widget buildShipmentTile({
   String? rating,
 }) {
   return Container(
-    margin: EdgeInsets.symmetric(vertical: 10.0),
+    margin: EdgeInsets.symmetric(vertical: 8.0),
     padding: EdgeInsets.all(16.0),
     decoration: BoxDecoration(
       color: Colors.white,
