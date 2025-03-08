@@ -66,7 +66,7 @@ class _CustomExpandableTileState extends State<CustomExpandableTile> {
                 ),
                 trailing: SvgPicture.asset(_isExpanded
                     ? 'images/Polygon 2.svg'
-                    : 'images/Polygon 21.svg'),
+                    : 'images/Polygon 1.svg'),
               ),
               if (_isExpanded)
                 Padding(
