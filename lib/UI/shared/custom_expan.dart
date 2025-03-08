@@ -64,8 +64,8 @@ class _CustomExpandableTileState extends State<CustomExpandableTile> {
                   ],
                 ),
                 trailing: SvgPicture.asset(_isExpanded
-                    ? 'images/Polygon 1.svg'
-                    : 'images/Polygon 2.svg'),
+                    ? 'images/Polygon 2.svg'
+                    : 'images/Polygon 21.svg'),
               ),
               if (_isExpanded)
                 Padding(
@@ -75,7 +75,7 @@ class _CustomExpandableTileState extends State<CustomExpandableTile> {
                     children: [
                       CustomStepper(),
                       SizedBox(height: 20),
-                      CustomField(hintText: "تعديل الموعد ")
+                      CustomField(hintText: "تعديل الموعد "),
                     ],
                   ),
                 ),

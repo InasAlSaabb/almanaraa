@@ -1,1 +1,3 @@
-enum OperationType { NONE, MEDICINE, ACTIVITY }
+enum OperationType {
+  NONE,
+}

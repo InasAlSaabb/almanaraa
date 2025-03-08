@@ -47,7 +47,7 @@ class CustomField extends StatelessWidget {
           borderRadius: BorderRadius.circular(10),
         ),
         suffixIcon: Padding(
-          padding: const EdgeInsets.all(8.0), // إضافة بعض الحشوة إذا لزم الأمر
+          padding: const EdgeInsets.all(8.0),
           child: SvgPicture.asset(
             'images/app_registration.svg',
             color: AppColors.secondaryTextColor,

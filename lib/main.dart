@@ -1,4 +1,3 @@
-import 'package:almanaraa/UI/views/main_view/home_page/home_view.dart';
 import 'package:almanaraa/UI/views/main_view/main_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

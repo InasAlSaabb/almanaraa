@@ -14,16 +14,7 @@ class BaseController extends GetxController {
       requestStatus == RequestStatus.LOADING &&
       operationTypeList.contains(OperationType.NONE);
 
-  // bool get isCategoryLoading =>
-  //     requestStatus == RequestStatus.LOADING &&
-  //     operationTypeList.contains(OperationType.CATEGORY);
-
-  // bool get isMealLoading =>
-  //     requestStatus == RequestStatus.LOADING &&
-  //     operationTypeList.contains(OperationType.MEAL);
-
   set setOperationType(OperationType value) {
     operationType.value = value;
   }
 }
-//2 fun
