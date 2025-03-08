@@ -1,0 +1,1 @@
+enum BottomNavigationEnum { PERSONAL, SHIPPINGCALC, ACCOUNT, WALLET }
